@@ -1,7 +1,17 @@
+# name
 name: First worflow
 
 # event
 on: [push]
 
 jobs:
-    
+  # job
+  first-workflow:
+    # runner - OS
+    runs-on: ubuntu-latest
+
+    # steps of actions
+    steps:
+      - name: First step
+        run: |
+          echo "hello, world!"
