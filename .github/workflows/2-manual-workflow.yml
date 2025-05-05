@@ -7,7 +7,7 @@ on:
 
 jobs:
   #job
-  manual-workflow:
+  first-workflow:
     # runner - OS
     runs-on: ubuntu-latest
 
