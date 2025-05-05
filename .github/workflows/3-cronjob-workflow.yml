@@ -4,8 +4,8 @@ name: Cron job worflow
 # event
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "*/1 * * * *" # runs in every 5 minutes
+  # schedule:
+  #   - cron: "*/5 * * * *" # runs in every 5 minutes
 
 jobs:
   # job
