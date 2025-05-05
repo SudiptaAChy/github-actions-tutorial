@@ -4,7 +4,7 @@ name: Cron job worflow
 # event
 on:
   schedule:
-    - cron: '*/5 * * * *' # runs in every 5 minutes
+    - cron: '*/1 * * * *' # runs in every 5 minutes
 
 jobs:
   # job

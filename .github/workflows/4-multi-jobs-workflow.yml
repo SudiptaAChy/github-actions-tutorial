@@ -1,0 +1,31 @@
+# name
+name: Multi jobs worflow
+
+# event
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  # first job
+  first-workflow-job:
+    # runner - OS
+    runs-on: ubuntu-latest
+
+    # steps of actions
+    steps:
+      - name: First step
+        run: |
+          echo "hello, from first workflow!"
+
+  # second job
+  second-workflow-job:
+    # runner - OS
+    runs-on: ubuntu-latest
+
+    # steps of actions
+    steps:
+      - name: First step
+        run: |
+          echo "hello, from second workflow!"
