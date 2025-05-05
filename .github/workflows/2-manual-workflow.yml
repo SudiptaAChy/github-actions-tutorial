@@ -1,0 +1,18 @@
+# name
+name: Manual worflow
+
+# events
+on:
+  workflow_dispatch:
+
+jobs:
+  #job
+  manual-workflow:
+    # runner - OS
+    runs-on: ubuntu-latest
+
+    # steps of actions
+    steps:
+      - name: First step
+        run: |
+          echo "Hello, from manual workflow!"
