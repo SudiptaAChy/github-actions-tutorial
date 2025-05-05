@@ -2,7 +2,10 @@
 name: First worflow
 
 # event
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   # job

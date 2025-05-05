@@ -1,0 +1,19 @@
+# name
+name: Cron job worflow
+
+# event
+on:
+  schedule:
+    - cron: '*/5 * * * *' # runs in every 5 minutes
+
+jobs:
+  # job
+  cron-job-workflow:
+    # runner - OS
+    runs-on: ubuntu-latest
+
+    # steps of actions
+    steps:
+      - name: First step
+        run: |
+          echo "hello, from cron job workflow!"
