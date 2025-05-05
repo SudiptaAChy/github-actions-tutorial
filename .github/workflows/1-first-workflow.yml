@@ -1,0 +1,7 @@
+name: First worflow
+
+# event
+on: [push]
+
+jobs:
+    
